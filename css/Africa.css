@@ -1,0 +1,62 @@
+
+.AFRICA{
+    background-image: url(../images/africa.jpg);
+}
+/*-------------------------MAURITUS------------------------------*/
+
+.mauritus p{
+     color: #36AC99;
+     margin: 0;
+}
+
+
+.mauritus-pic{
+   background-image: url(../images/mauritus.jpg);
+    
+}
+
+ 
+/*-------------------------SOUTH AFRICA-----------------------------------*/
+
+.south-africa{
+    color: #014176;
+}
+
+.south-africa-pic{
+    background-image: url(../images/southafrica.jpg);
+}
+
+/*-------------------------ZAMBIA-----------------------------------*/
+
+.zambia{
+    color: #FEAB0C;
+}
+
+.zambia-pic{
+    background-image: url(../images/southafrica.jpg);
+}
+
+/*-------------------------MADAGASCAR-----------------------------------*/
+
+.madagascar{
+    color: #6FB327;
+}
+
+.madagascar-pic{
+    background-image: url(../images/southafrica.jpg);
+}
+
+/*------------------------TANZANIA-----------------------------------*/
+
+.tanzania{
+    color: #6F7A82;
+}
+
+
+.tanzania-pic{
+    background-image: url(../images/tanzania.jpg);
+}
+
+
+
+

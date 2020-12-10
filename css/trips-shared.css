@@ -1,0 +1,313 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+/*------------FIRST-----------*/
+.first{
+    display: flex;
+    width: 100%;
+}
+
+.continant{
+    font-size: 10vw;
+    box-shadow: 12px 4px 19px 1px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+    
+    background-size: cover;
+    background-position: center bottom 20% ;
+    height: 100vh;
+    border-top-right-radius: 71px;
+    border-bottom-right-radius: 71px;
+    font-size: 96px;
+    color: #ffffff;
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+.citation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    color: black;
+}
+.phrase{
+    width: 75%;
+    text-align: center;
+    font-size: 40px;
+    font-family:  Myriad Pro;
+    margin: 0;
+
+}
+
+@font-face {
+    font-family: Myriad Pro;
+    src: url(../fonts/MyriadPro-Light.woff);
+  }
+
+.auteur{
+    margin-top: 21px;
+    font-size: 48px;
+    font-family: 'Abril Fatface', cursive;
+
+}
+
+
+
+
+/*------------SECOND-----------*/
+
+.second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/*-----------------------------------------GENERAL SETTINGS--------------------------------*/
+/*----------GENERAL----------*/
+.Nom-pays{
+    margin-top: 80px ;
+    font-size: 70px;
+    font-family: 'abril Fatface', cursive;
+    color: seagreen;
+    text-align: center;
+   
+
+}
+
+/*------------GENERAL-------------------*/
+.Pays-plan{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    
+    width: 100%;
+       
+}
+/*---------------------------------------*/
+
+
+/*--------------GENERAL------------*/
+.Pays-pic{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+    
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 40%;
+    min-width: 247px;
+   
+    height: 417px;
+   
+}
+.left{
+     border-top-right-radius: 71px;
+    border-bottom-right-radius: 71px;
+    box-shadow: 12px 4px 19px 1px rgba(0, 0, 0, 0.25);
+}
+.right{
+    border-top-left-radius: 71px;
+    border-bottom-left-radius: 71px;
+    box-shadow: -12px 4px 19px 1px rgba(0, 0, 0, 0.25);
+}
+.Pays-pic img{
+    width: 100%;
+    height: 100%;
+   
+}
+/*-----------------------------------*/
+
+
+/*-------------GENERAL----------*/
+.details{
+    min-width: 294px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+}
+/*---------------------------------*/
+
+/*---------------GENERAL------------*/
+
+.destination{
+    width: 90%;
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-family: 'Abril Fatface',cursive;
+    font-size: 40px;
+    color: #414141;
+    text-align: center;
+}
+
+/*-----------------------------------*/
+
+
+/*---------GENERAL-----------*/
+
+.duration{
+    font-family: Proxima Nova;
+    font-size: 20px;
+    color: #414141;
+
+}
+
+@font-face {
+    font-family: ProximaNova-Regular;
+    src: url(../ProximaNova-Regular.woff);
+  }
+
+/*--------------------------------*/
+/*-----------------GENERAL-------------*/
+.svg-date{
+    display: flex;
+    align-items: center;
+    
+}
+
+.date{
+    font-family: Proxima Nova;
+    font-size: 20px;
+    color: #414141;
+    margin: 0;
+
+}
+/*----------------------------------*/
+
+/*---------GENERAL BUTTON-----------*/
+.cart{
+    text-align: center;
+    font-family: Proxima Nova;
+    font-size: 30px;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    text-decoration: none;
+    display: inline-block;
+    width: 40%;
+    padding: 18px;
+    background: rgba(255, 31, 31, 0.83);
+    box-shadow: inset 7px 7px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    margin-top: 48px;
+}
+.cart:hover{
+
+    background: rgba(255, 31, 31, 0.5);
+   
+}
+/*-------------------------------------------------------------*/
+
+.Pays-text{
+    font-family: Myriad Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 0 30px;
+    text-align: center;
+    margin-top: 40px;
+    color: #414141;
+    width: 90%;
+}
+
+.footer{
+  margin-top: 200px;
+}
+
+
+.price{
+    position: absolute;
+    right: 3rem;
+    padding: 1rem 2rem;
+    background-color: red;
+    font-family: Myriad pro;
+    font-weight: bold;
+    bottom: 1rem;
+    font-size: 2rem;
+    color: white;
+    border-radius: 1rem;
+}
+
+
+
+
+/*-------------------------------------FIN--------------------------------------------*/
+
+/*------------------MOBILE DEIGN------------------------------*/
+@media (max-width: 616px) {
+    .first{
+        flex-direction: column;
+        
+        align-items: center;
+        border-radius: 0px 0px 200px 200px;
+    }
+    .continant{
+        margin: 0;
+        margin-bottom: 2rem;
+        height: 202px;
+        width: 100%;
+        border-radius: 0px 0px 310px 310px;
+        margin-bottom: 0;
+        font-size: 10vw;
+        font-family: 'Abril Fatface', cursive;
+    }
+    .phrase, .auteur{
+        margin: 0;
+        margin-top: 1rem;
+        width: 100%;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .Pays-pic{
+        border-radius: 20px;
+    width: 100%;
+    height: 200px;
+}
+   
+    .details{
+        font-size: 1.3rem;
+        margin-top: 1rem;
+        width: 100%;
+    }
+    .svg-date{
+        text-align: center;
+    }
+    .Nom-pays{
+        margin-top: 8px ;
+       
+       
+    
+    }
+    .Nom-pays{
+        font-size: 15vw;
+    }
+    .second{
+        margin-bottom: 2rem;
+    }
+    
+   
+}

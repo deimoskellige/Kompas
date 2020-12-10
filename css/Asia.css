@@ -1,0 +1,73 @@
+body{
+    background: rgba(221, 210, 171, 0.38);
+}
+
+.ASIA{
+    color: #CC6A54;;
+    background-image: url(../images/asia.jpg);
+}
+/*-------------------------NEW ZELAND------------------------------*/
+
+.newzeland p{
+    color: #217E81;
+     margin: 0;
+}
+
+
+.newzeland-pic{
+   background-image: url(../images/newzeland.jpg);
+    
+}
+
+ 
+/*-------------------------ICELAND-----------------------------------*/
+
+.iceland{
+    color: #B99F54;
+}
+
+.iceland-pic{
+    background-image: url(../images/iceland1.jpg);
+}
+
+
+/*-------------------------BHUTAN-----------------------------------*/
+
+.bhutan{
+    color: #8C91BB;
+}
+
+.bhutan-pic{
+    background-image: url(../images/buthan.jpg);
+}
+
+/*-------------------------CHINA-----------------------------------*/
+
+.china{
+    color: #B59580;
+}
+
+.china-pic{
+    background-image: url(../images/greatwall.jpg);
+}
+/*-------------------------INDIA-----------------------------------*/
+
+.india{
+    color: #A26967;
+}
+
+.india-pic{
+    background-image: url(../images/greatwall.jpg);
+}
+/*-------------------------australia-----------------------------------*/
+
+.australia{
+    color: #F4917C;
+}
+
+.australia-pic{
+    background-image: url(../images/australia.jpg);
+}
+
+
+

@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.panier img{
+    width: 100%;
+}
+/*----------MAIN--------------*/
+
+.first{
+    display: flex;
+  
+}
+
+.climb{
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+   width: 47%;
+
+ 
+    background-image: url(../images/climb.jpg);
+    background-size: cover;
+    background-position-y: 80% ;
+
+   
+    height: 100vh;
+    border-top-right-radius: 71px 71px;
+    border-bottom-right-radius: 71px 71px;
+    filter: drop-shadow(8px 4px 17px rgba(0, 0, 0, 0.25));
+   
+}
+
+.slogan{
+    
+    width: 100%;
+   text-align: center;
+
+    color: white;
+    
+}
+
+.big{
+    
+    font-size: 10vw;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.point{
+    
+color: #FF5F00;
+}
+
+.sens{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.join-us{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.join-us p{
+    color: #414141;
+    font-size: 2vw;
+    font-family: Myriad Pro;
+}
+#join-button {
+    margin-top: 1rem;
+    font-family: 'Abril Fatface', cursive;
+
+
+}
+
+@font-face {
+    font-family: Myriad Pro;
+    src: url(../fonts/MyriadPro-Light.woff);
+  }
+
+
+
+.image{
+   
+    background-image: url(../images/carte1.png);
+    background-size: cover;
+    position: absolute;
+    z-index: -10;
+    width: 50vw;
+    height: 700px;
+    right: 0;
+    top: 100vh;
+    opacity: 0.3;
+}
+
+
+.second{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+
+}
+
+.description{
+    display: flex;
+    padding-left: 44px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+   
+    
+
+}
+
+.degre{
+    font-family: 'Abril Fatface', cursive;
+    width: 30%;
+    min-width: 255px;
+    margin-right: 44px;
+    font-size: 40px;
+    color: #414141;
+    margin-bottom: 2rem;
+}
+
+
+.description .text{
+   
+  flex-basis: 30%;
+  font-family: Myriad Pro;
+
+min-width: 200px;
+font-size: 20px;
+color: #414141;
+    
+}
+
+.next{
+    align-self: flex-end;
+    width: 40%;
+    font-family: Myriad Pro;
+    margin-right: 4rem;
+    min-width: 300px;
+    font-size: 20px;
+    color: #414141;
+    max-width: 440px;
+}
+
+.image2{
+   
+    background-image: url(../images/carte1.png);
+    background-size: cover;
+    background-position: right 0%;
+    width: 60%;
+    height: 600px;
+    position: absolute;
+    top: 160vh;
+    opacity: 0.4;
+    z-index: -10;
+ 
+
+}
+
+.third{
+    display: flex;
+    margin-top: 9rem ;
+    width: 100%;
+    justify-content: space-between;
+    padding-right: 30px;
+
+}
+
+.image3{
+    width: 30%;
+    background-image: url(../images/third.jpg);
+    background-size: cover;
+    height:468px;
+    border-top-right-radius: 36px 36px;
+    border-bottom-right-radius: 36px 36px;
+    filter: drop-shadow(8px 4px 17px rgba(0, 0, 0, 0.25));
+}
+
+.third-text1{
+    font-family: Myriad Pro;
+    font-size: 20px;
+    align-self: center;
+    width: 30%;
+    color: #414141;
+}
+
+.third-text2{
+    font-family: 'Abril Fatface',cursive;
+
+    font-size: 40px;
+    width: 30%;
+    color: #414141;
+}
+
+.KOM{
+    position: absolute;
+    font-family: 'Abril Fatface',cursive;
+    top: 220vh;
+    right: 0;
+    font-size: 288px;
+    color: rgba(209, 194, 154, 0.3);
+    mix-blend-mode: difference;
+    z-index: -1;
+
+}
+
+.PAS{
+    position: absolute;
+    font-family: 'Abril Fatface',cursive;
+    top: 260vh;
+    color: rgba(209, 194, 154, 0.3);
+    left: 0;
+    font-size: 288px;
+    z-index: -1;
+
+}
+
+
+/*------------------RESPONSIVE DESIGN-------------------------*/
+
+/*------------------TABLETTE DEIGN------------------------------*/
+@media (max-width: 834px) {
+    
+
+
+
+    .climb{
+        height: 50vh;
+        width: 50%;
+        
+       
+    }
+
+   .big{
+       font-size: 12vw;
+   }
+    .sens{
+        font-size: 2vw;
+    }
+    .degre{
+        width: 40%;
+    }
+
+}
+
+/*------------------MOBILE DEIGN------------------------------*/
+@media (max-width: 616px) {
+    .first{
+        flex-direction: column;
+        
+        align-items: center;
+        border-radius: 0px 0px 200px 200px;
+    }
+    .climb{
+        margin-bottom: 2rem;
+        height: 202px;
+        width: 100%;
+        border-radius: 0px 0px 310px 310px;
+    }
+    .join-us p{
+        
+        font-size: 4vw;
+        
+    }
+    .third{
+        padding: 0;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        border-radius: none;
+       
+    }
+
+    .image3{
+        margin-bottom: 1rem;
+        width: 100%;
+        
+    }
+    
+    .third-text1{
+        padding: 1rem;
+        order: 2;
+       width: 100%;
+       margin-bottom: 1rem;
+    }
+    
+    .third-text2{
+        padding: 1rem;
+        order: 1;
+       width: 100%;
+       margin-bottom: 1rem;
+       margin-left: 1rem;
+       justify-self: flex-start;
+    }
+    .next{
+        justify-content: flex-start;
+        margin-left: 2rem;
+        
+    }
+   
+
+}
+

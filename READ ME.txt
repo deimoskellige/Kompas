@@ -1,0 +1,31 @@
+
+1- Installer WAMPSERVER (iclure le PHP7)
+
+2- Executer WAMPSERVER
+
+3- Mettre le dossier KOMPAS dans le dossier WAMP/www
+
+4- Ouvrir Localhost dans le navigateur
+	*Si le port 80 est pris, veuillez changer le numero du port vers 8090 en cliquant sur 
+	l'icone du WAMP située au niveau de la barre de taches, puis cliquez sur Apache httpd.conf*
+
+	*Si vous utilisez le port 8090, accedez au Localhost via l'adresse: Localhost:8090 *
+
+5- Cliquer sur le dossier KOMPAS
+
+
+
+
+----------------------Pour acceder a l'espace administrateur: localhost:8090/KOMPAS/admin--------*SI LE PORT 80 EST PRIS*
+
+
+
+
+----------------------Pour acceder a l'espace administrateur: localhost/KOMPAS/admin--------*SI LE PORT 80 N'EST PAS PRIS*
+
+
+---------------------------------ADMIN ACCOUNT------------------------ 
+
+username: admin 
+
+password: root

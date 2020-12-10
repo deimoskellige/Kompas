@@ -1,0 +1,60 @@
+body{
+    background: rgba(221, 210, 171, 0.38);
+}
+
+.AMERICA{
+    background-image: url(../images/amefrica.jpg);
+}
+/*-------------------------PERU------------------------------*/
+
+.peru p{
+    color: rgba(0, 106, 197, 0.98);
+     margin: 0;
+}
+
+
+.peru-pic{
+   background-image: url(../images/machupichu.jpg);
+    
+}
+
+ 
+/*-------------------------ICELAND-----------------------------------*/
+
+.iceland{
+    color: #B99F54;
+}
+
+.iceland-pic{
+    background-image: url(../images/iceland1.jpg);
+}
+
+
+/*-------------------------WASHINGTON-----------------------------------*/
+
+.washington{
+    color: rgba(44, 102, 152, 0.87);
+}
+
+.washington-pic{
+    background-image: url(../images/washington.jpg);
+}
+
+/*-------------------------ARIZONA-----------------------------------*/
+
+.arizona{
+    color: #EF8742;
+}
+
+.arizona-pic{
+    background-image: url(../images/arizona.jpg);
+}
+
+
+.phrase-america{
+    width: 80%;
+}
+
+
+
+

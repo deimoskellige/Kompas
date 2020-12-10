@@ -1,0 +1,274 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+}
+body{
+    overflow-x: hidden;
+}
+
+.panier{
+    z-index: 200;
+    position: fixed;
+    top: 200px;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    background: #FFAB69;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 14px;
+}
+.panier img, .logout img{
+    width: 100%;
+}
+.logout{
+    z-index: 200;
+    position: fixed;
+    top: 255px;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    background: #FF6969;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 14px;
+
+}
+
+@font-face {
+    font-family: Proxima Nova;
+    src: url(../fonts/ProximaNovaBold.otf);
+  }
+ 
+
+
+  ::-webkit-scrollbar{
+    width: 5px;
+    height: 20px;
+}
+::-webkit-scrollbar-thumb{
+    background: rgba(155, 155, 155, 1);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: rgba(92, 92, 92, 1);
+}
+
+
+
+
+/*--------------HEADER--------------*/ 
+
+header{
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+    font-family: 'Abril Fatface', cursive;
+    position: absolute;
+    z-index: 10;
+    color: #414141;
+
+
+
+}
+
+.Kompas{
+    font-size: 24px;
+    color: white;
+
+}
+
+.header-nav{
+    width: 40% ;
+    margin-right: 2rem;
+    font-size: 18px;
+}
+
+.header-ul{
+
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+   
+
+}
+header a{
+    text-decoration: none;
+    color: #414141;
+}
+.home{
+    padding: 8px;
+    border-left: 3px solid #FFAB69;;
+}
+header a:hover{
+    color: #FFAB69;
+}
+
+.Trips{
+    text-align: center;
+    width: 30%;
+    min-width: 75px;
+    position: relative;
+   
+   
+}
+.Trips a{
+    display: inline-block;
+    padding-bottom: 1rem;
+   
+}
+.Trips:hover .trips-menu{
+   display: block;
+}
+
+
+.trips-menu{
+    display: none;
+    background: #EBDFC1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    width: 100%;
+    right: 0;
+    position: absolute;
+    
+    
+}
+
+.ul-trips{
+    text-align: center;
+    list-style: none;
+}
+.ul-trips li a {
+    
+    width: 100%;
+   
+    display: inline-block;
+    padding: 12px 0 ;
+}
+
+.trip-africa, .trip-america{
+    border-bottom: 4px solid #FFFAED;
+}
+.mobile-icone{display: none;}
+
+
+/*--------------FOOTER---------------*/
+
+.footer{
+    color: #414141;
+    padding: 58px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 350px;
+    width: 100%;
+    border-radius: 41px ;
+    box-shadow: inset 0px 15px 19px rgba(0, 0, 0, 0.11);
+border-radius: 41px;
+   
+    
+}
+
+.contact{
+    font-family: 'Abril Fatface',sans-serif;
+    font-size: 36px;
+    margin-bottom: 1rem;
+}
+.footer a{
+    margin-top: 1rem;
+    display: block;
+    text-decoration: none;
+    color: #414141;
+    font-family: 'Abril Fatface',sans-serif;
+}
+.header-nav img{
+    display: none;
+}
+.copyright{
+    margin-top: 1rem;
+    font-size: 0.7rem;
+}
+.social{
+    text-align: center;
+}
+
+/*------------------TABLETTE DEIGN------------------------------*/
+@media (max-width: 834px) {
+    header{
+        padding: 1rem;
+    }
+    .kompas{
+        font-size: 1rem;
+    }
+    .header-nav{
+        margin-right: 0;
+        font-size: 1rem;
+    }
+}
+
+
+
+/*------------------MOBILE DEIGN------------------------------*/
+@media (max-width: 616px) {
+    .header-ul{
+        display: none;
+    }
+    .kompas{
+        font-size: 13px;
+    }
+    .header-nav{
+      
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 1rem;
+    }
+    .header-nav img{
+        display: block;
+    }
+    .backdrop{
+        display: block;
+    }
+    .mobile-icone{
+    display: block;
+    font-size: 1rem;
+    text-align: center;
+    position: relative;
+    }
+    .mobile-nav{
+        display: none;
+    margin-top: 10px;
+    padding: 1rem;
+    background-color: #FFFAED;
+    position: absolute;
+    right: 1px;
+    border-radius: 10px;
+   
+    }
+    .mobile-ul, .mobile-ul ul{
+    list-style: none;
+
+    }
+    .mobile-ul li{
+    padding: 1rem;
+    border-bottom: 1px solid grey;
+    }
+    
+    .mobile-icone:hover .mobile-nav{
+        display: block;
+
+    }
+   
+
+}
+

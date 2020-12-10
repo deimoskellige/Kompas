@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #FFFAED;
+}
+.Kompas{
+    color: #414141;
+}
+::-webkit-scrollbar{
+    width: 5px;
+    height: 20px;
+}
+::-webkit-scrollbar-thumb{
+    background: rgba(155, 155, 155, 1);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: rgba(92, 92, 92, 1);
+}
+header{
+   
+    top: 0;
+}
+h1{
+    margin: 3rem 2rem;
+    font-family: 'Abril Fatface', cursive;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+
+}
+.container{
+    position: relative;
+    z-index: 2;
+   color: #414141;;
+    margin-top: 6rem;
+    padding: 2rem;
+    margin-bottom: 3rem;
+}
+.carte-background{
+    opacity: 0.6;
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+    
+   
+}
+.footer{
+    margin: 0px;
+}
+
+.home{
+    border: none;
+}
+.about{
+    padding: 8px;
+
+    border-left: 3px solid #FFAB69;
+
+}
